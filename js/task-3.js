@@ -1,4 +1,44 @@
-function filterArray(numbers, value) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*function filterArray(numbers, value) {
   let filterArray = [];
   for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] > value) {
@@ -15,16 +55,7 @@ console.log(filterArray([1, 2, 3, 4, 5], 5)); // []
 console.log(filterArray([12, 24, 8, 41, 76], 38)); // [41, 76]
 console.log(filterArray([12, 24, 8, 41, 76], 20)); // [24, 41, 76]
 
-
-
-
-
-
-
-
-
-
-/*function getElementWidth(content, padding, border) {
+function getElementWidth(content, padding, border) {
   const contentWidth = parseFloat(content);
   const paddingWidth = parseFloat(padding);
   const borderWidth = parseFloat(border);

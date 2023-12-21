@@ -1,4 +1,45 @@
-function makeArray (firstArray,secondArray,maxLength ) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*function makeArray (firstArray,secondArray,maxLength ) {
 const combiArray = [].concat(firstArray,secondArray);
 const result = combiArray.slice(0,maxLength);
   if ( combiArray.length>=maxLength) {
@@ -15,26 +56,6 @@ console.log(makeArray(["Mango"], ["Ajax", "Chelsea", "Poly", "Houston"], 3)); //
 console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 2)); // ["Earth", "Jupiter"]
 console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 4)); // ["Earth", "Jupiter", "Neptune", "Uranus"]
 console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0)); // []
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*function getShippingMessage(country, price, deliveryFee) {
   let totalPrice = price + deliveryFee;
   const messagePrice = `Shipping to ${country} will cost ${totalPrice} credits`;
